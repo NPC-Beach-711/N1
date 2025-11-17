@@ -238,12 +238,14 @@ nav a:focus {
   margin-bottom: 1.5rem;
 }
 
+/* LIGHTER hero-right (no dark overlay) */
 .hero-right {
   border-radius: 12px;
   padding: 1.25rem 1.4rem;
-  background: rgba(0, 0, 0, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #ffffff;
+  border: 1px solid #e3e3ea;
   font-size: 0.9rem;
+  color: #222;
 }
 
 .hero-right h2 {
@@ -405,12 +407,13 @@ nav a:focus {
   color: #6b7280;
 }
 
+/* LIGHTER featured news card */
 .news-feature-card {
   position: relative;
-  background: #f6f5fb;
+  background: #ffffff;
   border-radius: 26px;
   padding: 1.9rem 2rem 1.9rem;
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.22);
+  box-shadow: 0 1px 6px rgba(15, 23, 42, 0.12);
   border: 1px solid #e0e3f0;
   display: flex;
   flex-direction: column;
@@ -602,5 +605,3 @@ footer {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
-
-@me
