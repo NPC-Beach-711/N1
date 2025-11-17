@@ -605,3 +605,29 @@ footer {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+/* ==== LIGHTEN NPC NEWS SECTION OVERRIDES ==== */
+
+/* Make the news section background match the rest of the page */
+.news-section {
+  background: #f5f5f7;   /* same as body */
+  box-shadow: none;
+}
+
+/* Make the featured card flat, no heavy dark shadow */
+.news-feature-card {
+  background: #ffffff;
+  box-shadow: none;       /* remove dark glow */
+  border: 1px solid #e3e3ea;
+}
+
+/* Lighten/remove the YouTube thumbnail shadow */
+.video-thumb__img {
+  box-shadow: none;       /* remove dark drop shadow */
+}
+
+/* If you’re still using the embedded video version anywhere */
+.video-embed {
+  box-shadow: none;
+  background: #ffffff;    /* no black box behind */
+}
+
